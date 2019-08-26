@@ -1,0 +1,22 @@
+.root{
+    .test{
+        color: red;
+    }
+    .outer{
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+    }
+}
+@ptcolot:red;
+.outer{
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    animation: all 0.3s;
+    appearance: none;
+    box-flex:1.0;
+    .inner{
+        color: @ptcolot;
+    }
+}
